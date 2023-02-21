@@ -1,17 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Roboto&display=swap');
+
 body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
 header {
-    background: lightcyan;
+    background: linear-gradient(45deg, #7C39B3, #8C66B3);
 }
 
 .container {
-    width: 1050px;
+    width: 1200px;
     margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo-site {
+    font-size: 37px;
+    font-family: 'Mynerve', cursive;
+    color: #9BCC60;
 }
 
 .nav {
@@ -19,10 +27,18 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 0;
+    border-bottom: 2px solid white;
 }
 
 .nav-main a {
     margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.botao-cadastro {
+    color: white;
 }
 
 .info-principal {
@@ -30,6 +46,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 70px 0;
+    padding: 100px 0;
 }
 
 .frase-principal {
@@ -37,9 +54,27 @@ header {
 }
 
 .espacamento {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.titulo {
+    font-size: 40px;
+}
+
+.paragrafo {
+    font-size: 30px;
 }
 
 .imagem-principal img {
     width: 600px;
+}
+
+.parceria {
+    background: transparent;
+    border: 2px solid #9BCC60;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: #9BCC60;
 }

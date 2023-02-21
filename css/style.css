@@ -1,0 +1,45 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    background: lightcyan;
+}
+
+.container {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.nav-main a {
+    margin: 0 10px;
+}
+
+.info-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 0;
+}
+
+.frase-principal {
+    width: 40%;
+}
+
+.espacamento {
+    margin-bottom: 30px;
+}
+
+.imagem-principal img {
+    width: 600px;
+}

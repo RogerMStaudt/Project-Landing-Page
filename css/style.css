@@ -4,10 +4,7 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-header {
-    background: linear-gradient(45deg, #7C39B3, #8C66B3);
+    background-image: URL(/Project-Landing-Page/img/back.png);
 }
 
 .container {
@@ -19,7 +16,7 @@ header {
 .titulo-site {
     font-size: 37px;
     font-family: 'Mynerve', cursive;
-    color: #9BCC60;
+    color: #3D8536;
 }
 
 .nav {
@@ -46,7 +43,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 70px 0;
-    padding: 100px 0;
+    padding: 150px 0;
 }
 
 .frase-principal {
@@ -54,16 +51,17 @@ header {
 }
 
 .espacamento {
-    margin-bottom: 50px;
-    color: white;
+    margin-bottom: 45px;
 }
 
 .titulo {
-    font-size: 40px;
+    font-size: 55px;
+    color: white;   
 }
 
 .paragrafo {
-    font-size: 30px;
+    font-size: 25px;
+    color: white;
 }
 
 .imagem-principal img {
@@ -77,4 +75,71 @@ header {
     padding: 10px;
     font-size: 20px;
     color: #9BCC60;
+}
+
+/* CSS do Main */
+
+.parte-caract {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 150px 0
+}
+
+.imagem-caracteristica img{
+    width: 600px;
+}
+
+.titulo-caracteristicas {
+    font-size: 30px;
+    border-left: 3px solid purple;
+    margin-left: 7px;
+    padding-left: 10px;
+}
+
+.caracteristicas {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    width: 400px;
+}
+
+.caracteristicas img {
+    width: 15%;
+}
+
+.seg img {
+    width: 15.5%;
+}
+
+.caract-texto {
+    font-size: 20px;
+    padding-left: 20px;   
+}
+
+.importante {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 150px 0;
+}
+
+.texto-importante {
+    margin: 20px;
+    width: 500px;
+}
+
+.texto-importante p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.texto-importante h1 {
+    border-left: 3px solid purple;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.imagem-importante img{
+    width: 550px;
 }

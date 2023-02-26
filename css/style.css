@@ -143,3 +143,35 @@ body {
 .imagem-importante img{
     width: 550px;
 }
+
+.precos {
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+
+.card-preco {
+    height: 240px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.meio {
+    text-align: center;
+}
+
+.titulo-preco {
+    font-size: 25px;
+}
+
+.numero-preco {
+    font-size: 40px;
+    color:darkgreen;
+    padding: 20px 0;
+    border-bottom: 2px solid black;
+}
+
+.preco-list {
+    margin: 20px 0;
+}
